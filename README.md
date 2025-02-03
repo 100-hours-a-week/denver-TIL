@@ -11,17 +11,18 @@
 ```bash
 TIL/
 │── README.md  # TIL 소개 및 구조 설명
-│── YYYY-MM-DD/  # 날짜별 학습 내용 정리
-│   ├── theory.md  # 이론 정리
-│   ├── practice/  # 실습 코드 저장
-│   │   ├── example.py
-│   │   ├── project/
-│   │       ├── main.py
-│   │       ├── utils.py
-│   ├── summary.md  # 하루 배운 내용 요약
+│── YYYY-MM/  # 월별 학습 내용 정리
+│   ├── YYYY-MM-DD/  # 날짜별 학습 내용
+│   │   ├── theory.md  # 이론 정리
+│   │   ├── practice/  # 실습 코드 저장
+│   │   │   ├── example.py
+│   │   │   ├── project/
+│   │   │       ├── main.py
+│   │   │       ├── utils.py
+│   │   ├── summary.md  # 하루 배운 내용 요약
 │── weekly-summary/  # 주간 요약 정리
-│   ├── week-01.md
-│   ├── week-02.md
+│   ├── YYYY-MM-week-01.md
+│   ├── YYYY-MM-week-02.md
 ```
 ## 📅 최근 TIL
 - [2025-02-03](./2025-02-03/theory.md) - OSI 7계층 흐름 및 프로토콜
